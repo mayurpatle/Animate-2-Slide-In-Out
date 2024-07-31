@@ -1,0 +1,67 @@
+.slide-In{
+    animation  :  slideIn  5s forwards   ; 
+    margin-top  :   100px ; 
+    margin-left : auto   ;  
+    margin-right :  auto   ;  
+    width : 70% ; 
+    border :  solid 1px rgb(123, 105, 105)    ;  
+    display :  flex ; 
+    flex-direction: column  ;  
+    align-items: center;
+
+}
+
+.slide-Out   {
+    animation  :  slideOut 5s forwards   ; 
+    margin-top  :   100px ; 
+    width : 70% ; 
+    border :  solid 1px rgb(123, 105, 105)    ;  
+    display :  flex ; 
+    flex-direction: column  ;  
+    align-items: center;
+    
+
+}
+
+.normal    {
+    margin-top  :   100px ; 
+    margin-left : auto   ;  
+    margin-right :  auto   ; 
+    width : 70% ; 
+    border :  solid 1px rgb(123, 105, 105)    ;  
+    display :  flex ; 
+    flex-direction: column  ;  
+    align-items: center;
+
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+
+    }
+
+    to {
+        transform  :  translateX(0%)
+    }
+
+    
+}
+
+@keyframes slideOut {
+    from {
+        transform: translateX(20%);
+
+    }
+
+    to {
+        transform  :  translateX(-100%)  ;  
+
+    }
+
+}
+
+.btn  {
+    margin-top :  5%    ;  
+     
+}
